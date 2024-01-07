@@ -1,5 +1,11 @@
 {
   "dependencies": {
-    "react-native-fix-image": "^2.1.0"
+    "expo": "^49.0.21",
+    "expo-keep-awake": "^12.5.0",
+    "metro": "^0.80.1",
+    "ncu": "^0.2.1",
+    "react-native-fix-image": "^2.1.0",
+    "react-native-unimodules": "^0.14.10",
+    "react-scripts": "^5.0.1"
   }
 }

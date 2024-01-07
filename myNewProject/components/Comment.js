@@ -12,7 +12,6 @@ export const Comment = ({ item }) => {
 
   return (
     <View style={styles.box}>
-      
       {messageStatus[1] === "recived" && (
         <Image
           style={styles.postImg}
@@ -64,7 +63,7 @@ const styles = StyleSheet.create({
     fontFamily: "Roboto-Regular",
     lineHeight: 18,
     fontSize: 13,
-    color: '#212121',
+    color: "#212121",
   },
   date: {
     marginTop: 8,
