@@ -21,7 +21,7 @@ import { SimpleLineIcons } from "@expo/vector-icons";
 //import PublicPosts from "../BestPublicPosts";
 import PostContentWithHighlights from "./PostContentWithHighlights";
 const ProfilePic = require("./Profile.png");
-
+const highlightedFragments = ["THIS IS A HIGHLIGHT."];
 // Dummy post data array
 const posts = [
   {
@@ -30,7 +30,7 @@ const posts = [
     topic: "Immigration",
     profilePic: require("./Profile.png"),
     content:
-      "I voted yes on #HR2, American Energy Solutions for Lower Costs and More American Jobs Act. The bill combines several pieces of energy-related legislation that previously passed the House. The legislative package seeks to expand U.S. energy production and reduce bureaucratic red tape. It passed 226-191.",
+      "MEOW I voted yes on #HR2, American Energy Solutions THIS IS A HIGHLIGHT for Lower Costs and More American Jobs Act. The bill combines several pieces of energy-related legislation that previously passed the House. The legislative package seeks to expand U.S. energy production and reduce bureaucratic red tape. It passed 226-191.",
     //image: "https://example.com/path/to/mountain.jpg", // Replace with your image path
     likes: 120,
     dislikes: 10,

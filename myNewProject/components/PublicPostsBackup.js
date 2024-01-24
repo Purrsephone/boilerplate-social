@@ -23,7 +23,7 @@ const posts = [
     topic: "Immigration",
     profilePic: require("../assets/Profile.png"),
     content:
-      "There is nothing more calming than an early morning hike in the mountains. The air is crisp, the sky a perfect blue...",
+      "FUCK There is nothing more calming than an early morning hike in the mountains. The air is crisp, the sky a perfect blue...",
     //image: "https://example.com/path/to/mountain.jpg", // Replace with your image path
     likes: 120,
     dislikes: 10,
